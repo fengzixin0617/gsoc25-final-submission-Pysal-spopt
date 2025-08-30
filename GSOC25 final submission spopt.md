@@ -9,12 +9,12 @@
 6. Document the learning process with [blogs](https://fengzixin0617.github.io/gsoc2025/) 
 
 ## Understanding object-oriented programming.
-Before starting the project, I reviewed academic papers on Flow Refuelling Location Models (FRLM), as these models are closely related to my PhD research. At that time, I was new to software engineering practices, including object-oriented programming (OOP) and collaborative workflows such as GitHub’s push/pull/fork process. My initial tasks therefore focused on becoming familiar with these tools and practices.
+Before starting the project, I read academic papers on Flow Refuelling Location Models (FRLMs), as these models are closely related to my PhD research. At that time, I was new to software engineering practices, including object-oriented programming (OOP) and collaborative workflows such as GitHub’s push/pull/fork process. My initial tasks therefore focused on becoming familiar with these tools and practices.
 
 ## Initial draft of the basic FRLM model. 
 I began by developing an initial draft of the basic Flow Refuelling Location Model (FRLM). I then extended this draft by incorporating the threshold-based version of the model, followed by the capacitated version. After I gained a better understanding of OOP, I refactored the code into an object-oriented structure.
 
-Each of the three models can be solved using either Exact solver or Greedy solver. 
+Each of the three models can be solved using either Exact solver or Greedy solver in the module. 
 
 ## Code review and revision. 
 
@@ -22,13 +22,13 @@ I then submitted my first [Pull Request](https://github.com/pysal/spopt/pull/487
 
 ## Notebook. 
 
-After two rounds of code review and revisions, I created a notebook with real-world examples demonstrating the models included in the package. It documents the details of the three optimisation models, ways to prepare the input data, and the API for solving an optimisation problem. The notebook also shows how to retrieve relevant statistics and results.
+After rounds of code review and revisions, I created a notebook with real-world examples demonstrating the models included in the package. It documents the details of the three optimisation models, ways to prepare the input data, and the API for solving an optimisation problem. The notebook also shows how to retrieve relevant statistics from the solutions.
 
 ## Test. 
 
-The next step was to develop a [test](https://github.com/fengzixin0617/spopt/blob/add-frlm-feature/spopt/tests/test_locate/test_flow.py) file for the newly implemented module.
+The next step was to develop a [test](https://github.com/fengzixin0617/spopt/blob/add-frlm-feature/spopt/tests/test_locate/test_flow.py) file for the module.
 
-## Pre-commit 
+## Pre-commit.
 
 Finally, I set up pre-commit checks for all the new files. At first, I used the 'black'configuration, but then realised I needed to align with the pre-commit settings already used in the rest of the package. After making the adjustments, the latest version of the files successfully passed all pre-commit checks.
  
