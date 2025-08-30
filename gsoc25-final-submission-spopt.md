@@ -20,12 +20,15 @@ Each of the three models can be solved using either Exact solver or Greedy solve
 
 I then submitted my first [Pull Request](https://github.com/pysal/spopt/pull/487), which went through rounds of code review by my mentors. 
 
-## Notebook and Test. 
+## Notebook. 
 
-After two rounds of code review and revision, I started the notebook with real-world examples and the test file for the new module. 
+After two rounds of code review and revisions, I created a notebook with real-world examples demonstrating the models included in the package. It documents the details of the three optimisation models, ways to prepare the input data, and the API for solving an optimisation problem. The notebook also shows how to retrieve relevant statistics and results.
+
+## Test. 
+
+The next step was to develop a [test](https://github.com/fengzixin0617/spopt/blob/add-frlm-feature/spopt/tests/test_locate/test_flow.py) file for the newly implemented module.
+
+## Pre-commit 
+
+Finally, I set up pre-commit checks for all the new files. At first, I used the 'black'configuration, but then realised I needed to align with the pre-commit settings already used in the rest of the package. After making the adjustments, the latest version of the files successfully passed all pre-commit checks.
  
-
-
-
-
-
