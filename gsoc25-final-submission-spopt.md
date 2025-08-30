@@ -11,18 +11,19 @@
 ## Task 0.
 Before starting the project, I reviewed academic papers on Flow Refuelling Location Models (FRLM), as these models are closely related to my PhD research. At that time, I was new to software engineering practices, including object-oriented programming (OOP) and collaborative workflows such as GitHub’s push/pull/fork process. My initial tasks therefore focused on becoming familiar with these tools and practices.
 
-## Task 1. 
+## Initial draft of the basic FRLM model. 
 I began by developing an initial draft of the basic Flow Refuelling Location Model (FRLM). I then extended this draft by incorporating the threshold-based version of the model, followed by the capacitated version. After I gained a better understanding of OOP, I refactored the code into an object-oriented structure.
 
 Each of the three models can be solved using either Exact solver or Greedy solver. 
 
-## Task 2. 
+## Code review and revision. 
 
-I then submitted my first [Pull request](https://github.com/pysal/spopt/pull/487), which went through two rounds of code review by my mentors. 
+I then submitted my first [Pull Request](https://github.com/pysal/spopt/pull/487), which went through rounds of code review by my mentors. 
 
-## Task 3. 
+## Notebook and Test. 
 
-## Task 4. 
+After two rounds of code review and revision, I started the notebook with real-world examples and the test file for the new module. 
+ 
 
 
 
