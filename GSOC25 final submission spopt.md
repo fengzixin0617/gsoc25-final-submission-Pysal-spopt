@@ -9,16 +9,16 @@
 6. Document the learning process with [blogs](https://fengzixin0617.github.io/gsoc2025/) 
 
 ## Understanding object-oriented programming.
-Before starting the project, I read academic papers on Flow Refuelling Location Models (FRLMs), as these models are closely related to my PhD research. At that time, I was new to software engineering practices, including object-oriented programming (OOP) and collaborative workflows such as GitHub’s push/pull/fork process. My initial tasks therefore focused on becoming familiar with these tools and practices.
+Before starting the project, I read papers on Flow Refuelling Location Models (FRLMs), as these models are closely related to my PhD research. However, I was new to software engineering practices, including object-oriented programming (OOP) and collaborative workflows such as GitHub’s push/pull/fork process. My initial tasks therefore focused on becoming familiar with these tools and practices.
 
 ## Initial draft of the basic FRLM model. 
-I began by developing an initial draft of the basic Flow Refuelling Location Model (FRLM). I then extended this draft by incorporating the threshold-based version of the model, followed by the capacitated version. After I gained a better understanding of OOP, I refactored the code into an object-oriented structure.
-
-Each of the three models can be solved using either Exact solver or Greedy solver in the module. 
+I began by developing an initial draft of the basic Flow Refuelling Location Model (FRLM). I then extended this draft by incorporating the threshold-based version of the model, followed by the capacitated version. After I gained a better understanding of OOP, I refactored the code into an object-oriented structure. Each of the three models can be solved using either Exact solver or Greedy solver in the module. 
 
 ## Code review and revision. 
 
 I then submitted my first [Pull Request](https://github.com/pysal/spopt/pull/487), which went through rounds of code review by my mentors. 
+
+One of the important revisions during the process was abour the design of the API. Since the module involves multiple parameter settings, different extensions (apacity and threshold), as well as two different solvers, it was important to create a clearer structure for the module and its API. In the initial draft, I had a lot of repetitive code, which makes the code extremely long. Following my mentors advice, I later revised it to make the implementation shorter and clearer. 
 
 ## Notebook. 
 
