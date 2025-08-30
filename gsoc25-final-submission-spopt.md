@@ -8,10 +8,10 @@
 5. Create code [test](https://github.com/fengzixin0617/spopt/blob/add-frlm-feature/spopt/tests/test_locate/test_flow.py)
 6. Document the learning process with [blogs](https://fengzixin0617.github.io/gsoc2025/) 
 
-## Task 0.
+## Understanding the optimisation models.
 Before starting the project, I reviewed academic papers on Flow Refuelling Location Models (FRLM), as these models are closely related to my PhD research. At that time, I was new to software engineering practices, including object-oriented programming (OOP) and collaborative workflows such as GitHub’s push/pull/fork process. My initial tasks therefore focused on becoming familiar with these tools and practices.
 
-## Initial draft of the basic FRLM model. 
+## Initial draft of the basic FRLM model and OOP. 
 I began by developing an initial draft of the basic Flow Refuelling Location Model (FRLM). I then extended this draft by incorporating the threshold-based version of the model, followed by the capacitated version. After I gained a better understanding of OOP, I refactored the code into an object-oriented structure.
 
 Each of the three models can be solved using either Exact solver or Greedy solver. 
